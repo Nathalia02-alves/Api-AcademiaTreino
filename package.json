@@ -1,0 +1,23 @@
+{
+  "name": "projeto-modulo-4",
+  "version": "1.0.0",
+"description": "\"Projeto Api Modulo 4 - Academia\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "go" : "node ./src/database/tabelas.js"
+  },
+  "author": "Nathalia Alves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.2"
+  },
+  "type":"module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
